@@ -1,2 +1,2 @@
-- name: powerplatform-actions
+name: powerplatform-actions
   uses: microsoft/powerplatform-actions@v1.8.0
