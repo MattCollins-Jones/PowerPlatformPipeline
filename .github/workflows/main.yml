@@ -1,7 +1,7 @@
 jobs:
-  builds:
-    runs-on: windows-latest
-  steps:
-    - name: powerplatform-actions
-  uses: microsoft/powerplatform-actions@v1.8.0
-  on: push
+builds:
+runs-on: windows-latest
+steps:
+- name: powerplatform-actions
+uses: microsoft/powerplatform-actions@v1.8.0
+on: push
