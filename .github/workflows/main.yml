@@ -1,3 +1,17 @@
-name: powerplatform-actions
-uses: microsoft/powerplatform-actions@v1.8.0
-on: push
+jobs:
+    builds:
+        runs-on: windows-latest   # alternate runner OS is: ubuntu-latest
+
+    steps:
+    - name: Install Power Platform Tools
+        uses: microsoft/powerplatform-actions/actions-install@v1
+
+    - name: Export Solution
+         uses: microsoft/powerplatform-actions/export-solution@v1
+      with:
+         environment-url: 'https://myenv.crm.dynamics.com'
+         user-name: 'me@myenv.onmicrosoft.com'
+         password-secret: ${{ secrets.MYPASSWORD }}
+         solution-name: aSolution
+         solution-output-file: 'aSolution.zip'
+         working-directory: 'out'
