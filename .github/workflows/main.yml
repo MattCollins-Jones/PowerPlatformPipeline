@@ -1,8 +1,7 @@
 jobs:
-    builds:
-        runs-on: windows-latest   # alternate runner OS is: ubuntu-latest
-
-    steps:
+  builds:
+    runs-on: windows-latest
+  steps:
     - name: powerplatform-actions
-    uses: microsoft/powerplatform-actions@v1.8.0
-    on: push
+  uses: microsoft/powerplatform-actions@v1.8.0
+  on: push
