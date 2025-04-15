@@ -1,0 +1,16 @@
+name: Trigger Automation
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Code
+        uses: actions/checkout@v2
+
+      - name: Run Automation
+        run: |
+  
