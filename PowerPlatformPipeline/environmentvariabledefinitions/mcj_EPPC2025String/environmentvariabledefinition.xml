@@ -1,0 +1,11 @@
+<environmentvariabledefinition schemaname="mcj_EPPC2025String">
+  <defaultvalue>123456</defaultvalue>
+  <displayname default="EPPC 2025 String">
+    <label description="EPPC 2025 String" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>
