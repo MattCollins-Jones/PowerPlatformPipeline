@@ -1,0 +1,11 @@
+<environmentvariabledefinition schemaname="mcj_GITEnVar">
+  <defaultvalue>Manchester UG</defaultvalue>
+  <displayname default="GIT EnVar">
+    <label description="GIT EnVar" languagecode="1033" />
+  </displayname>
+  <introducedversion>1.0.0.0</introducedversion>
+  <iscustomizable>1</iscustomizable>
+  <isrequired>0</isrequired>
+  <secretstore>0</secretstore>
+  <type>100000000</type>
+</environmentvariabledefinition>
