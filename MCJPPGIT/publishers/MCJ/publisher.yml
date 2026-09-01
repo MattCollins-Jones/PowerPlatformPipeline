@@ -4,8 +4,8 @@ Publisher:
     LocalizedName:
       '@description': MCJ
       '@languagecode': 1033
-  Descriptions: 
-  EMailAddress:
+  Descriptions: My main solution publisher
+  EMailAddress: mattcollinsjones@gmail.com
     '@xsi:nil': true
     '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
   SupportingWebsiteUrl:
